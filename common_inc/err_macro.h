@@ -1,7 +1,9 @@
 #ifndef ERR_MACRO
 #define ERR_MACRO
 
-#define CRITICAL true
+#include <stdbool.h>
+
+#define CRITICAL_ERROR true
 
 #define ERR_1(S) fprintf(stderr, "[%s:%d] %s error: %s\n", __FILE__, __LINE__, #S, SDL_GetError());
 
