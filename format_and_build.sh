@@ -32,3 +32,11 @@ format_files() {
 # Run the formatting function
 format_files
 echo "Formatting complete."
+
+
+############################################################################
+
+# Run CMake configuration and build commands
+echo -e "\nConfiguring and building the project..."
+cmake -DCMAKE_BUILD_TYPE=Release -S . -B build/
+cmake --build ./build
