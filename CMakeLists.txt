@@ -16,3 +16,4 @@ set(COMMON_INC_DIR "${CMAKE_SOURCE_DIR}/common_inc")
 
 # Add subdirectories containing executables
 add_subdirectory(simple_triangle)
+add_subdirectory(key_mouse_control)

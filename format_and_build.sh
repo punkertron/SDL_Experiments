@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directories to format
-DIRECTORIES=("simple_triangle" "common_inc")
+DIRECTORIES=("common_inc" "simple_triangle" "key_mouse_control")
 
 # File extensions to format
 EXTENSIONS=("c" "h")
